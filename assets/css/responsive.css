@@ -18,7 +18,7 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   
   .login-boxed, .dropdown-wrap{
-    left: 60%;
+    left: 65%;
   }
   .slicknav_btn{
     left: 4%;
@@ -157,6 +157,27 @@
   .modal-content{
     padding: 0;
   }
+  .detail-qty a{
+    left: 65%;
+  }
+  .detail-qty{
+    padding: 11px 10px;
+    max-width: 75px;
+  }
+  .cart-item-info h5{
+    font-size: 14px;
+  }
+  thead tr th div span {
+    font-size: 14px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .single-box-area {
+    padding: 15px 25px;
+  }
+  td .product-prices span {
+    font-size: 22px;
+  }
 
 }
 
@@ -267,7 +288,34 @@
   .button.btn.button-add-to-cart{
     padding: 10px 30px;
   }
-
+  .linked-btn a {
+    padding: 30px 10px;
+    font-size: 16px;
+  }
+  .table tbody td {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .cart-item-img{
+    display: unset;
+  }
+  .table thead{
+    display: none;
+  }
+  .detail-qty a{
+    left: 20%;
+  }
+  .detail-qty{
+    max-width: 100%;
+    border: 0 !important;
+  }
+  .cart-item-img img {
+    width: 80px;
+  }
+  td .product-prices span {
+    font-size: 18px;
+  }
 
 
   
