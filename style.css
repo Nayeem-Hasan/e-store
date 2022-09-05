@@ -452,24 +452,24 @@ body{
 }
 .slider-content h3 {
   font-size: 50px;
-  color: var(--wc-content-bgs);
+  color: var(--wc-highligh-text);
   font-weight: 900;
   letter-spacing: 3px;
   line-height: 1.6;
 }
 .slider-content p {
   font-size: 30px;
-  color: var(--wc-content-bgs);
+  color: var(--wc-highligh-text);
 }
-/* .home-slider-img::before {
+.single-home-slider::before {
   content: '';
   position: absolute;
   height: 100vh;
   width: 100%;
-  background: var(--black);
+  background: var(--wc-hover-box);
   opacity: .3;
   z-index: -1;
-} */
+}
 /* ==========homepage slider area ends============ */
 
 /* ====facilities-area start======= */
@@ -937,8 +937,8 @@ body{
 /* ===========footer area start========== */
 
 .apps-img a img {
-  width: 130px;
-  height: 70px;
+  width: 100%;
+  height: auto;
 }
 .apps-img a {
   margin-right: 10px;
