@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-store</title>
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/slicknav.min.css">
+  <link rel="stylesheet" href="assets/css/boxicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  
+<!-- ==========preloader area========= -->
+<div class="preloader-container">
+  <img src="assets/img/loader_800.gif" alt="">
+</div>
+<!-- ==========preloader area========= -->
+
+<header class="header-fixed wow animate__animated animate__fadeInDown">
+  <div class="container">
+    <div class="header-contents">
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+      </div>
+      <div class="search-area">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class='bx bx-search'></i></button>
+      </div>
+      <div class="cart-area">
+        <div class="cart-item">
+          <a href="account.html"><i class='bx bxs-user'></i></a>
+          <div class="login-boxed">
+            <h4>Login Account</h4>
+            <div class="login-boxed-part">
+              <form action="index.html">
+                <input type="email" placeholder="Enter your Email">
+                <input type="password" placeholder="your password">
+                <button class="btn">Log In</button>
+              </form>
+              <div class="password">
+                <a href="#">forgot password</a>
+                <span> | </span>
+                <a href="#">reset password</a>
+              </div>
+              <div class="account">
+                <p>Don't Have an Account?</p><a href="account.html">Create An Account</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</header>
+<div class="header wow animate__animated animate__fadeInUp">
+  <div class="container">
+    <!-- <div class="menu-trigger toggle" id="toggle">
+      <a href="#">Categories <i class='bx bx-menu'></i></a>
+    </div> -->
+    <div class="nav-bar out-menu" id="nav-bar">
+      <ul id="menu2">
+        <li><a href="#" class="navItems active">Gadget</a>
+          <ul class="sub_menu">
+            <li><a href="#"> Mobile</a></li>
+            <li><a href="#"> Computer</a></li>
+            <li><a href="#"> Laptop</a></li>
+            <li><a href="#"> Camera</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="navItems">Accesories</a>
+          <ul class="sub_menu">
+            <li><a href="#"> Headphone</a></li>
+            <li><a href="#"> Cover</a></li>
+            <li><a href="#"> Protector</a></li>
+            <li><a href="#"> Display</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="navItems">Fashion</a>
+          <ul class="sub_menu">
+            <li><a href="#">Male</a></li>
+            <li><a href="#">Female</a></li>
+            <li><a href="#">Winter</a></li>
+            <li><a href="#">Summer</a></li>
+            <li><a href="#">Fall</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="navItems">Grocery</a>
+          <ul class="sub_menu">
+            <li><a href="#">Vegetables</a></li>
+            <li><a href="#">Fish</a></li>
+            <li><a href="#">Meat</a></li>
+            <li><a href="#">Chiken</a></li>
+            <li><a href="#">Oil</a></li>
+            <li><a href="#">Rice</a></li>
+            <li><a href="#">Soap</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="navItems">Cooking</a>
+          <ul class="sub_menu">
+            <li><a href="#">Ingridents</a></li>
+            <li><a href="#">Ginger</a></li>
+            <li><a href="#">Garlic</a></li>
+            <li><a href="#">Onion</a></li>
+            <li><a href="#">Corriander</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="navItems">Cloth</a>
+          <ul class="sub_menu">
+            <li><a href="#">Shirt</a></li>
+            <li><a href="#">Jeans</a></li>
+            <li><a href="#">Underwear</a></li>
+            <li><a href="#">T-shirt</a></li>
+            <li><a href="#">Cap</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="navItems">Fresh SeaFood</a>
+          <ul class="sub_menu">
+            <li><a href="#">Butterd Fish</a></li>
+            <li><a href="#">Tuna Fish</a></li>
+            <li><a href="#">Coral Fish</a></li>
+            <li><a href="#">Hilsha Fish</a></li>
+            <li><a href="#">Hangor</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+   
+    <div class="user-item">
+      <a href="cart.html"><i class='bx bxs-cart-add'></i></a>
+    <!-- ==========cart box  area====== -->
+      <div class="dropdown-wrap">
+        <ul>
+          <li>
+            <div class="cart-item-img">
+              <img src="assets/img/product-1-1.jpg" alt="">
+            </div>
+            <div class="cart-item-info">
+              <h5>Daily Casual Bag</h5>
+              <h5><span>2 *</span> $ 24.40</h5>
+            </div>
+            <div class="cart-item-close">
+              <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </div>
+          </li>
+          <li>
+            <div class="cart-item-img">
+              <img src="assets/img/product-1-1.jpg" alt="">
+            </div>
+            <div class="cart-item-info">
+              <h5>Daily Casual Bag</h5>
+              <h5><span>2 *</span> $ 24.40</h5>
+            </div>
+            <div class="cart-item-close">
+              <a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </div>
+          </li>
+        </ul>
+        <div class="cart-footer">
+          <div class="cart-total">
+            <h5>total :  <span> $48.80</span></h5>
+          </div>
+          <div class="cart-btns">
+            <a href="cart.html" class="btn">View Cart</a>
+            <a href="checkout.html" class="btn">Chekout</a>
+          </div>
+        </div>
+      </div>
+  <!-- ==========cart box  area====== -->
+    </div>
+  </div>
+</div>
+
+<!-- =========header area ends========= -->
+
+<!-- ====================homepage slider area start==================== -->
+<div class="homepage-banner-area wow animate__animated animate__fadeInUpBig" data-wow-duration="2s">
+  <div class="homepage-slider">
+
+    <div class="single-home-slider">
+        <div class="home-slider-img home-bg-1"></div>
+        <div class="slider-content">
+          <h3>Fresh Vegetables</h3>
+          <p>Save Upto 50% On Your first Order</p>
+        </div>
+    </div>
+
+    <div class="single-slider">
+        <div class="home-slider-img home-bg-2"></div>
+        <div class="slider-content">
+          <h3>Don't Miss amazing products</h3>
+          <p> Shopping with us  and Save your pocket</p>
+        </div>
+    </div>
+
+  </div>
+</div>
+<!-- ====================homepage slider area ends==================== --> 
+
+<!-- ====facilities-area start======= -->
+<div class="facilities-area wow animate__animated animate__fadeInUp">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-6 text-center">
+        <div class="single-box-area">
+          <i class='bx bx-lock'></i>
+          <h5>Easy $ Sucure Payment Method.</h5>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 text-center">
+        <div class="single-box-area">
+          <i class='bx bx-paper-plane'></i>
+          <h5>Fast & Free Delivery System.</h5>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 text-center">
+        <div class="single-box-area">
+          <i class='bx bx-money'></i>
+          <h5>100% Money Back Guaranteed</h5>
+        </div>
+      </div>
+      <div class="col-md-3 col-6 text-center">
+        <div class="single-box-area">
+          <i class='bx bx-phone-call'></i>
+          <h5>24/7 Customer Service</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ====facilities-area ends======= -->
+
+<!-- ========featured-area start=========== -->
+<div class="featured-area wow animate__animated animate__fadeInUp">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="featured-area-title">
+          <h4 class="section-title">featured catagories</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+      <div class="featured-slider">
+        <div class="single-featured-box feature-bg-1">
+          <div class="featured-box-content">
+            <h4>Everyday Fresh & clean Our Products</h4>
+            <a href="#" class="btn featured-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+          </div>
+        </div>
+        <div class="single-featured-box feature-bg-2">
+          <div class="featured-box-content">
+            <h4>Everyday Fresh & clean Our Products</h4>
+            <a href="#" class="btn featured-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+          </div>
+        </div>
+        <div class="single-featured-box feature-bg-3">
+          <div class="featured-box-content">
+            <h4>Everyday Fresh & clean Our Products</h4>
+            <a href="#" class="btn featured-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+          </div>
+        </div>
+        <div class="single-featured-box feature-bg-2">
+          <div class="featured-box-content">
+            <h4>Everyday Fresh & clean Our Products</h4>
+            <a href="#" class="btn featured-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- ========featured-area ends=========== -->
+<!-- quick-view==== -->
+<div class="modal custom-modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="detailed-gallery">
+              <div class="zoom-img-slider">
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-1-1.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-1-2.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-10-1.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-10-2.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-5-1.jpg" alt="">
+                </div>
+              </div>
+              <div class="zoom-img-nav">
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-1-1.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-1-2.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-10-1.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-10-2.jpg" alt="">
+                </div>
+                <div class="single-zoomed-slider">
+                  <img src="assets/img/product-5-1.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="detail-info-table-cell">
+              <div class="detail-info">
+                  <h3 class="title-detail"><a href="shop-product-right.html" class="section-title">Seeds of Change Organic Quinoa, Brown</a></h3>
+                  <div class="product-rate d-inline-block">
+                    <div class="product-rate">
+                      <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span>  (32 reviews) </span>
+                    </div>
+                  </div>
+                  <div class="product-price-cover">
+                      <div class="product-prices d-flex">
+                          <span class="current-price">$38</span>
+                          <span class="d-flex">
+                              <span class="save-price ml-15">26% Off</span>
+                              <span class="old-price ml-15">$52</span>
+                          </span>
+                      </div>
+                  </div>
+                  <div class="detail-extralink">
+                      <div class="detail-qty border radius">
+                          <a href="#" class="qty-down"><i class='bx bx-chevron-up'></i></a>
+                          <span class="qty-val">1</span>
+                          <a href="#" class="qty-up"><i class='bx bx-chevron-down'></i></a>
+                      </div>
+                      <div class="product-extra-link2">
+                          <button type="submit" class="button btn button-add-to-cart"><i class='bx bxs-cart-add'></i>Add to cart</button>
+                      </div>
+                  </div>
+                  <div class="font-xs">
+                    <ul>
+                        <li class="detail-cate">Categories: <a href="#">Gadget</a> <span><i class='bx bx-chevron-right'></i></span> <a href="#">Mobile</a></li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+            <!-- Detail Info -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- quick-view==== -->
+
+<!-- =========popular-products-area start========= -->
+<div class="popular-products-area wow animate__animated animate__fadeInDown">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="popular-products-toppart">
+          <div class="popular-title">
+            <h4 class="section-title">Popular Products</h4>
+          </div>
+          <div class="popular-product-list">
+            <a href="#">All</a>
+            <a href="#">Drink</a>
+            <a href="#">Meat</a>
+            <a href="#">Fish</a>
+            <a href="#">Milk</a>
+            <a href="#">Coffee</a>
+            <a href="#">Tea</a>
+            <a href="#">Grocery</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-2-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-2-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <div class="product-badges">
+              <span class="hot">Hot</span>
+            </div>
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$55.28</span>
+                <span class="discount">$88.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-3-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-3-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <div class="product-badges">
+              <span class="new">New</span>
+            </div>
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$75.28</span>
+                <span class="discount">$78.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-4-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-4-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <!-- <div class="product-badges">
+              <span class="sale">sale</span>
+            </div> -->
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$35.28</span>
+                <span class="discount">$38.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-5-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-5-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <div class="product-badges">
+              <span class="string">20%</span>
+            </div>
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$65.28</span>
+                <span class="discount">$68.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-1-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-1-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <div class="product-badges">
+              <span class="sale">sale</span>
+            </div>
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$45.28</span>
+                <span class="discount">$48.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-6-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-6-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <div class="product-badges">
+              <span class="new">New</span>
+            </div>
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$55.28</span>
+                <span class="discount">$88.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-7-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-7-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <div class="product-badges">
+              <span class="string">15%</span>
+            </div>
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$75.28</span>
+                <span class="discount">$78.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-8-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-8-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <div class="product-badges">
+              <span class="sale">sale</span>
+            </div>
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$35.28</span>
+                <span class="discount">$38.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-9-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-9-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <div class="product-badges">
+              <span class="hot">Hot</span>
+            </div>
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$65.28</span>
+                <span class="discount">$68.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2-5 col-md-4 wow animate__animated animate__fadeInUp">
+        <div class="product-wrap-area">
+          <div class="product-img-area">
+            <div class="img-zoom">
+              <a href="detail.html">
+                <img src="assets/img/product-10-1.jpg" class="default-img" alt="">
+
+                <img src="assets/img/product-10-2.jpg" class="hovered-img" alt="">
+              </a>
+            </div>
+            <div class="img-action-banner">
+              <a href="#"><i class='bx bxs-cart-add'></i></a>
+              <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+            </div>
+            <!-- <div class="product-badges">
+              <span class="sale">sale</span>
+            </div> -->
+          </div>
+          <div class="product-details-area">
+            <div class="product-categories">
+              <a href="#">Food</a>
+            </div>
+            <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+            <div class="product-rate">
+              <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+            </div>
+            <div class="product-bottom-price">
+              <div class="product-price">
+                <span>$45.28</span>
+                <span class="discount">$48.12</span>
+              </div>
+              <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a href="#" class="btn load-btn">Load more <i class='bx bx-plus'></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- =========popular-products-area ends========= -->
+
+<!-- =======daily-best-sell area start========== -->
+<div class="best-sell-area wow animate__animated animate__fadeInUp">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 wow animate__animated animate__fadeInLeft">
+        <div class="daily-best-box">
+          <div class="best-box-content">
+            <h5>Daily Best Sell</h5>
+            <p>Bring Freshness in your home.</p>
+          </div>
+          <img src="assets/img/daily-sell.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-lg-9 wow animate__animated animate__fadeInRight">
+        <div class="row">
+          <div class="col-md-12">
+          <div class="product-wrap-slider"> 
+            <div class="product-wrap">
+            <div class="product-wrap-area">
+              <div class="product-img-area">
+                <div class="img-zoom">
+                  <a href="detail.html">
+                    <img src="assets/img/product-8-1.jpg" class="default-img" alt="">
+    
+                    <img src="assets/img/product-8-2.jpg" class="hovered-img" alt="">
+                  </a>
+                </div>
+                <div class="img-action-banner">
+                  <a href="#"><i class='bx bxs-cart-add'></i></a>
+                  <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                </div>
+                <div class="product-badges">
+                  <span class="string">15%</span>
+                </div>
+              </div>
+              <div class="product-details-area">
+                <div class="product-categories">
+                  <a href="#">Food</a>
+                </div>
+                <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+                <div class="product-rate">
+                  <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+                </div>
+                <div class="product-bottom-price">
+                  <div class="product-price">
+                    <span>$35.28</span>
+                    <span class="discount">$38.12</span>
+                  </div>
+                  <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="product-wrap">
+            <div class="product-wrap-area">
+              <div class="product-img-area">
+                <div class="img-zoom">
+                  <a href="detail.html">
+                    <img src="assets/img/product-9-1.jpg" class="default-img" alt="">
+    
+                    <img src="assets/img/product-9-2.jpg" class="hovered-img" alt="">
+                  </a>
+                </div>
+                <div class="img-action-banner">
+                  <a href="#"><i class='bx bxs-cart-add'></i></a>
+                  <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                </div>
+                <div class="product-badges">
+                  <span class="string">10%</span>
+                </div>
+              </div>
+              <div class="product-details-area">
+                <div class="product-categories">
+                  <a href="#">Food</a>
+                </div>
+                <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+                <div class="product-rate">
+                  <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+                </div>
+                <div class="product-bottom-price">
+                  <div class="product-price">
+                    <span>$65.28</span>
+                    <span class="discount">$68.12</span>
+                  </div>
+                  <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="product-wrap">
+            <div class="product-wrap-area">
+              <div class="product-img-area">
+                <div class="img-zoom">
+                  <a href="detail.html">
+                    <img src="assets/img/product-10-1.jpg" class="default-img" alt="">
+    
+                    <img src="assets/img/product-10-2.jpg" class="hovered-img" alt="">
+                  </a>
+                </div>
+                <div class="img-action-banner">
+                  <a href="#"><i class='bx bxs-cart-add'></i></a>
+                  <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                </div>
+                <div class="product-badges">
+                  <span class="string">12%</span>
+                </div>
+              </div>
+              <div class="product-details-area">
+                <div class="product-categories">
+                  <a href="#">Food</a>
+                </div>
+                <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+                <div class="product-rate">
+                  <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+                </div>
+                <div class="product-bottom-price">
+                  <div class="product-price">
+                    <span>$45.28</span>
+                    <span class="discount">$48.12</span>
+                  </div>
+                  <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="product-wrap">
+              <div class="product-wrap-area">
+                <div class="product-img-area">
+                  <div class="img-zoom">
+                    <a href="detail.html">
+                      <img src="assets/img/product-8-1.jpg" class="default-img" alt="">
+      
+                      <img src="assets/img/product-8-2.jpg" class="hovered-img" alt="">
+                    </a>
+                  </div>
+                  <div class="img-action-banner">
+                    <a href="#"><i class='bx bxs-cart-add'></i></a>
+                    <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                  </div>
+                  <div class="product-badges">
+                    <span class="string">15%</span>
+                  </div>
+                </div>
+                <div class="product-details-area">
+                  <div class="product-categories">
+                    <a href="#">Food</a>
+                  </div>
+                  <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+                  <div class="product-rate">
+                    <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+                  </div>
+                  <div class="product-bottom-price">
+                    <div class="product-price">
+                      <span>$35.28</span>
+                      <span class="discount">$38.12</span>
+                    </div>
+                    <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-wrap">
+              <div class="product-wrap-area">
+                <div class="product-img-area">
+                  <div class="img-zoom">
+                    <a href="detail.html">
+                      <img src="assets/img/product-9-1.jpg" class="default-img" alt="">
+      
+                      <img src="assets/img/product-9-2.jpg" class="hovered-img" alt="">
+                    </a>
+                  </div>
+                  <div class="img-action-banner">
+                    <a href="#"><i class='bx bxs-cart-add'></i></a>
+                    <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                  </div>
+                  <div class="product-badges">
+                    <span class="string">20%</span>
+                  </div>
+                </div>
+                <div class="product-details-area">
+                  <div class="product-categories">
+                    <a href="#">Food</a>
+                  </div>
+                  <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+                  <div class="product-rate">
+                    <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+                  </div>
+                  <div class="product-bottom-price">
+                    <div class="product-price">
+                      <span>$65.28</span>
+                      <span class="discount">$68.12</span>
+                    </div>
+                    <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product-wrap">
+              <div class="product-wrap-area">
+                <div class="product-img-area">
+                  <div class="img-zoom">
+                    <a href="detail.html">
+                      <img src="assets/img/product-10-1.jpg" class="default-img" alt="">
+      
+                      <img src="assets/img/product-10-2.jpg" class="hovered-img" alt="">
+                    </a>
+                  </div>
+                  <div class="img-action-banner">
+                    <a href="#"><i class='bx bxs-cart-add'></i></a>
+                    <a type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class='bx bx-show'></i></a>
+                  </div>
+                  <div class="product-badges">
+                    <span class="string">12%</span>
+                  </div>
+                </div>
+                <div class="product-details-area">
+                  <div class="product-categories">
+                    <a href="#">Food</a>
+                  </div>
+                  <h5>Seeds of Change Organic Quinoa, Brown, & Red Rice</h5>
+                  <div class="product-rate">
+                    <a href="#"><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star' ></i><i class='bx bxs-star-half'></i></a> <span> (4.5)</span>
+                  </div>
+                  <div class="product-bottom-price">
+                    <div class="product-price">
+                      <span>$45.28</span>
+                      <span class="discount">$48.12</span>
+                    </div>
+                    <a href="#" class="btn cart-btn"><i class='bx bx-cart'></i> Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ============daily-best-sell area ends=========== -->
+
+<!-- ============newsletter-area start========= -->
+<div class="newsletter-area wow animate__animated animate__fadeInUp">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="newsletter-box news-bg text-center">
+          <div class="newsletter-content">
+            <h4>Stay home & get your daily needs from our shop</h4>
+            <p>Start You'r Daily Shopping with <span>Nest Mart</span></p>
+            <div class="subscribe-input d-flex">
+              <form action="index.html" class="subscribe">
+                <i class='bx bx-paper-plane'></i>
+                <input type="email" placeholder="your email address" >
+                <button class="btn" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ============newsletter-area ends========= -->
+
+<!-- scroll top==== -->
+  <a href="#" id="scroll" class=""><i class="fa fa-angle-up"></i></a>
+
+<!-- scroll top==== -->
+
+
+<!-- ===========footer area start========== -->
+
+<footer class="footer-area wow animate__animated animate__fadeInUp">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp">
+        <div class="footer-box-area pt-30">
+          <div class="logo">
+            <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+            <p>awesome online store</p>
+          </div>
+          <ul class="contact-info">
+            <li><i class='bx bx-map'></i> <span>Address:</span>kawla, Dhaskhinkhan, Dhaka-1229.</li>
+            <li><i class='bx bx-phone-call'></i> <span>Call Us:</span>+880 1643-674867</li>
+            <li><i class='bx bx-paper-plane'></i> <span>Email:</span>mhedihasan.me@gmail.com</li>
+            <li><i class='bx bx-timer' ></i> <span>Time:</span>10.00 to 19.00 (sun to thu).</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 wow animate__animated animate__fadeInUp" >
+        <div class="footer-box-area">
+          <div class="about-us-area">
+            <h5 class="footer-box-title">Company</h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 wow animate__animated animate__fadeInUp">
+        <div class="footer-box-area">
+          <div class="about-us-area">
+            <h5 class="footer-box-title">Account</h5>
+            <ul>
+              <li><a href="account.html">Sign In</a></li>
+              <li><a href="cart.html">View Cart</a></li>
+              <li><a href="#">My Wishlist</a></li>
+              <li><a href="checkout.html">Track My Order</a></li>
+              <li><a href="#">Help Ticket</a></li>
+              <li><a href="#">Shipping Details</a></li>
+              <li><a href="#">Compare Products</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 wow animate__animated animate__fadeInUp">
+        <div class="footer-box-area">
+          <div class="about-us-area">
+            <h5 class="footer-box-title">Corporate</h5>
+            <ul>
+              <li><a href="#">Become a Vendor</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+              <li><a href="#">Farm Business</a></li>
+              <li><a href="#">Farm Careers</a></li>
+              <li><a href="#">Our Supliers</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Promotions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp">
+        <div class="footer-box-area">
+          <div class="apps-area">
+            <h5 class="footer-box-title">Install App</h5>
+            <p>from the app store or google play</p>
+            <div class="apps-img">
+              <a href="#"><img src="assets/img/app-store.jpg" alt=""></a>
+              <a href="#"><img src="assets/img/google-play.jpg" alt=""></a>
+            </div>
+            <div class="sucure-payment">
+            <p>secured Payment Gateways</p>
+            <a href="#"><img src="assets/img/payment-method.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foooter-bottom-part">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">Designed By <span>Mehedi Hasan</span> All Rights Reserved!</div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- ===========footer area ends========== -->
+
+<script src="assets/js/jquery-1.12.4.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/parallaxie.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/jquery.slicknav.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

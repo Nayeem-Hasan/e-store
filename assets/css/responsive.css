@@ -1,0 +1,274 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .login-boxed, .dropdown-wrap{
+    left: 60%;
+  }
+  .slicknav_btn{
+    left: 4%;
+  }
+  .single-box-area h5{
+    padding: 0;
+    font-size: 22px;
+  }
+  .cart-btn{
+    justify-content: center;
+  }
+  .btn{
+    font-size: 16px;
+  }
+  .sucure-payment a img{
+    width: 200px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .login-boxed, .dropdown-wrap{
+    left: 50%;
+  }
+  .search-area input{
+    width: 450px;
+  }
+  .slicknav_btn{
+    left: 4%;
+  }
+  .slider-content h3{
+    font-size: 40px;
+  }
+  .slider-content p{
+    font-size: 24px;
+  }
+  .single-box-area{
+    padding: 15px 5px;
+  }
+  .single-box-area h5{
+    font-size: 16px;
+    padding: 0;
+  }
+  .section-title{
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+  .featured-slider .slick-arrow {
+    top: -60px;
+    left: 80%;
+  }
+  .featured-box-content{
+    padding: 0px 15px;
+  }
+  .popular-title h4{
+    padding-bottom: 0;
+  }
+  .popular-product-list a{
+    padding: 0px 5px;
+  }
+  .col-lg-2-5 {
+    max-width: 33.333333%;
+  }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .search-area input{
+    width: 300px;
+  }
+  .login-boxed, .dropdown-wrap{
+    left: 25%;
+  }
+  .slicknav_btn, .slicknav_nav{
+    left: 2%;
+  }
+  .slider-content{
+    width: 400px;
+    left: 45%;
+  }
+  .slider-content h3{
+    font-size: 30px;
+  }
+  .slider-content p{
+    font-size: 16px;
+  }
+  .single-box-area{
+    margin-bottom: 20px;
+  }
+  .single-box-area h5{
+    font-size: 18px;
+  }
+  .section-title{
+    padding-bottom: 20px;
+    font-size: 26px;
+  }
+  .featured-slider .slick-arrow {
+    top: -60px;
+    left: 80%;
+  }
+  .col-lg-2-5{
+    max-width: 50%;
+  }
+  .popular-products-toppart{
+    flex-direction: column;
+  }
+  .popular-product-list a{
+    padding: 0 5px;
+  }
+  .custom-modal .modal-dialog {
+    max-width: 460px !important;
+  }
+  .modal-content{
+    padding: 0;
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .slicknav_menu .slicknav_menutxt{
+    letter-spacing: 0px;
+  }
+  .slicknav_btn{
+    left: 4px;
+    width: 140px;
+  }
+  .slicknav_nav{
+    left: 10px;
+  }
+  .slicknav_nav li{
+    width: 150px;
+  }
+  .login-boxed, .dropdown-wrap{
+    left: 15%;
+    width: 250px;
+  }
+  .dropdown-wrap{
+    padding: 15px 5px;
+  }
+  .search-area input{
+    width: 160px;
+    padding: 10px;
+  }
+  .cart-item-info h5 {
+    font-size: 14px;
+    color: var(--black);
+  }
+  .cart-btns .btn {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .single-box-area{
+    margin-bottom: 20px;
+    padding: 15px 0px;
+  }
+  .single-box-area h5{
+    font-size: 16px;
+    padding: 0;
+  }
+  .slider-content{
+    left: 5%;
+    transform: translate(-0%, -50%);
+  }
+  .slider-content h3{
+    font-size: 30px;
+  }
+  .slider-content p{
+    font-size: 16px;
+  }
+  .section-title{
+    padding-bottom: 20px;
+    font-size: 22px;
+    letter-spacing: 0;
+  }
+  .featured-slider .slick-arrow {
+    top: -60px;
+    left: 80%;
+  }
+  .col-lg-2-5 {
+    max-width: 100%;
+  }
+  .popular-products-toppart{
+    flex-direction: column;
+  }
+  .popular-product-list a{
+    padding: 0 5px;
+  }
+  .newsletter-content{
+    left: 20px;
+    max-width: 285px;
+  }
+  .subscribe{
+    max-width: 280px;
+    display: flex;
+  }
+  .subscribe input{
+    padding: 10px 0px 10px 40px;
+    width: 180px;
+  }
+  .subscribe button{
+    padding: 8px 15px;
+    letter-spacing: 0;
+    font-weight: normal;
+  }
+  .newsletter-content h4{
+    font-size: 22px;
+  }
+  .newsletter-content p{
+    font-size: 15px;
+  }
+  .custom-modal .modal-dialog {
+    max-width: 320px !important;
+  }
+  .modal-content{
+    padding: 0;
+  }
+  .button.btn.button-add-to-cart{
+    padding: 10px 30px;
+  }
+
+
+
+  
+}
